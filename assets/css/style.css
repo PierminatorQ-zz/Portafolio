@@ -20,6 +20,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color:var(--blue);
+    font-size:1.22em;
+    color:white;
 }
 
 h1,h2,h3,h4,h5 {
@@ -32,8 +34,168 @@ h1,h2,h3,h4,h5 {
 
 .navbar-brand {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5em;
+    font-size: 1.47em;
     font-weight: 700;
 }
 
+.nav-link{
+   text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
 
+.bg-hero{
+    height: 650px;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.header{
+    margin-top:350px;
+}
+
+.head, .subheader{
+    font-size:4.2em;
+}
+
+.divisor{
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.sobremi_quote{
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: right;
+    line-height: 1.60em;
+}
+
+.blockquote-foot{
+    color:var(--bluelight);
+    font-size:0.8em;
+    font-style: italic;
+    line-height: 1.60em;
+}
+
+.divider {
+    border:1px solid var(--orange);
+    width:200px;
+}
+
+.parrafo1{
+    font-size:0.8em;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+.exp{
+    /*background-color: var(--orange);
+    */margin-top:30px;
+    padding:50px 0;
+    border-left: 5px solid var(--orange);
+   
+}
+
+.row_exp{
+    padding: 50px 100px;
+}
+
+.title_exp{
+    font-size:2.62em;
+    padding-top:40px ;
+    
+}
+
+.card-body{
+    color:var(--blue);
+}
+
+.card-title{
+    font-weight: 700;
+    color:var(--orange);
+}
+
+.card-text{
+    font-size:0.8em;
+}
+
+.iconos_exp a > i{
+    color: var(--orange);
+}
+
+.desc_exp{
+    font-family: 'Raleway', sans-serif;
+    font-size:1.3em;
+    font-weight:700;
+}
+
+.subtitle_exp{
+    color:var(--yellow);
+    font-family: 'Raleway', sans-serif;
+    font-size:0.8em;
+    font-weight:300;
+    letter-spacing: 2px;
+}
+
+.divider2{
+    border: 1px solid white;
+    border-radius: 5px;
+    width:200px;
+    margin-top:0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.work{
+    background-color: var(--orange);
+    border-right:5px solid white;
+}
+
+.cardy{
+    padding-top:30px;
+}
+
+.car-item{
+    padding:20px 0;
+    color:var(--orange);
+}
+
+.footerr{
+    background-color:var(--bluedark);
+}
+
+
+
+.icons_footer a>i{
+    color:white;
+    padding: 10px;
+}
+
+.navbar-foot{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.47em;
+    font-weight: 700;
+}
+
+.carousel-indicators{
+    top:100px;
+    
+}
+
+@media (max-width: 1000px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+
+  
