@@ -60,6 +60,14 @@ h1,h2,h3,h4,h5 {
 .head, .subheader{
     font-size:4.2em;
 }
+.hero-tool{
+    color:white;
+}
+
+.hero-tool:hover{
+    color:white;
+    text-decoration: none;
+}
 
 .divisor{
     border: 2px solid white;
@@ -198,4 +206,17 @@ h1,h2,h3,h4,h5 {
     }
   }
 
+  @media (max-width: 576px) {
+    .carousel-indicators{
+        display: none;
+        
+    }
+    .icons_footer{
+        padding-top:30px;
+    }
+
+    .iconos_exp{
+        padding-top:60px;
+    }
+  }
   
