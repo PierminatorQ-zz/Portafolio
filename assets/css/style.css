@@ -189,6 +189,11 @@ h1,h2,h3,h4,h5 {
     padding: 10px;
 }
 
+.icons_footer a>i:hover{
+    color: var(--orange);
+    padding: 10px;
+}
+
 .navbar-foot{
     font-family: 'Playfair Display', serif;
     font-size: 1.47em;
