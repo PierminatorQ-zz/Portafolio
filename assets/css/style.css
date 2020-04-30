@@ -1,0 +1,39 @@
+
+/* Variables*/
+:root{
+    --bluedark: #1F398D;
+    --blue: #2445A6;
+    --bluelight:#375ACE;
+    --orange:#F3482C;
+    --yellow:#FDEA30;
+
+}
+
+
+
+*. {
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color:var(--blue);
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    background-color: var(--bluedark);
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
