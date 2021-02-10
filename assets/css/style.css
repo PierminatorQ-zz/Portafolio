@@ -1,5 +1,39 @@
 
 /* Variables*/
+
+@font-face {
+    font-family: FontBlack;
+    src: url(/assets/fonts/gelion-black-webfont.woff2) format('woff2');
+    src: local('☺'), 
+         url(/assets/fonts/gelion-black-webfont.woff) format('woff');
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: FontBold;
+    src: url(/assets/fonts/gelion-bold-webfont.woff2) format('woff2');
+    src: local('☺'), 
+         url(/assets/fonts/gelion-bold-webfont.woff) format('woff');
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: FontRegular;
+    src: url(/assets/fonts/gelion-regular-webfont.woff2) format('woff2');
+    src: local('☺'), 
+         url(/assets/fonts/gelion-regular-webfont.woff) format('woff');
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: FontLight;
+    src: url(/assets/fonts/gelion-light-webfont.woff2) format('woff2');
+    src: local('☺'), 
+         url(/assets/fonts/gelion-light-webfont.woff) format('woff');
+    font-display: fallback;
+  }
+
+
 :root{
     --bluedark: #1F398D;
     --blue: #2445A6;
@@ -18,14 +52,15 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'FontRegular', sans-serif;
     background-color:var(--blue);
     font-size:1.22em;
     color:white;
 }
 
 h1,h2,h3,h4,h5 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'FontBlack', serif;
+    letter-spacing: -2px;
 }
 
 .navbar {
@@ -47,19 +82,35 @@ h1,h2,h3,h4,h5 {
 
 .bg-hero{
     height: 650px;
-    background-image: url(../img/hero.png);
+    background-image: linear-gradient(
+        #1f398de8,
+        #1F398D8c
+      ), url(../img/hero.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
 }
 
 .header{
-    margin-top:350px;
+    margin-top:200px;
 }
 
-.head, .subheader{
-    font-size:4.2em;
+.head{
+    margin-bottom: 0;
+    font-size:8em;
+    letter-spacing: -10px;
+    line-height: 140px;
 }
+
+.subheader{
+    font-family: fontLight;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    
+}
+
 .hero-tool{
     color:white;
 }
