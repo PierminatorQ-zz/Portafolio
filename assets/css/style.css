@@ -154,14 +154,14 @@ h1,h2,h3,h4,h5 {
 }
 
 .parrafo1{
-    font-size:0.8em;
+    font-family: fontRegular;
+    font-size:1em;
     line-height: 2em;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .exp{
-    /*background-color: var(--orange);
-    */margin-top:30px;
+    margin-top:30px;
     padding:50px 0;
     border-left: 5px solid var(--orange);
    
@@ -173,8 +173,15 @@ h1,h2,h3,h4,h5 {
 
 .title_exp{
     font-size:2.62em;
-    padding-top:40px ;
+    padding-top:40px 
     
+}
+
+
+.card {
+    -webkit-box-shadow: 0px 16px 47px 5px rgba(8, 8, 8, 0.288);
+    -moz-box-shadow: 0px 16px 47px 5px rgba(8, 8, 8, 0.288);
+    box-shadow: 0px 16px 47px 5px rgba(8, 8, 8, 0.288);
 }
 
 .card-body{
@@ -195,9 +202,9 @@ h1,h2,h3,h4,h5 {
 }
 
 .desc_exp{
-    font-family: 'Raleway', sans-serif;
+    font-family: fontBold, sans-serif;
     font-size:1.3em;
-    font-weight:700;
+    letter-spacing: 0;
 }
 
 .subtitle_exp{
@@ -230,7 +237,7 @@ h1,h2,h3,h4,h5 {
 
 .car-item{
     padding:20px 0;
-    color:var(--orange);
+    color:white;
 }
 
 .footerr{
@@ -250,9 +257,9 @@ h1,h2,h3,h4,h5 {
 }
 
 .navbar-foot{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.47em;
-    font-weight: 700;
+    font-family: 'FontBlack', serif;
+    font-size: 22px;
+    line-height: 1em;
 }
 
 .carousel-indicators{
